@@ -78,6 +78,12 @@ class Customer {
       );
     }
   }
+
+  /* Return first and last names joined by a space */
+
+  fullName() {
+    return `${this.firstName} ${this.lastName}`
+  }
 }
 
 module.exports = Customer;
